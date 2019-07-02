@@ -17,7 +17,7 @@ Include the `HasDogtagId` concern with the relevant model classes or along with 
 Specify the data types in an initializer like `config/initializers/tellus_dogtag.rb` with a hash like the following:
 
 ```ruby
-Tellus::Dogtag.data_types = {
+Tellus::Dogtag::DataType.data_types = {
   'ModelName' => 0,
   'AnotherOne' => 1,
 }.freeze
